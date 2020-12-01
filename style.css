@@ -1,0 +1,27 @@
+html,body{
+    height: 100%;
+    width:100%;
+}
+
+.navigation li{
+    display:inline;
+    border: 1px solid blue;
+    margin:50px;
+}
+
+.nav-link{
+    margin:10px;
+}
+
+.carousel {
+    max-height: 650px;
+    overflow: hidden;}
+  
+.carousel-inner img {
+      width: 100%;
+      height: auto;
+    }
+
+.carousel-caption{
+    margin-bottom:60px;
+    }
