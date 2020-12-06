@@ -1,6 +1,7 @@
 html,body{
     height: 100%;
     width:100%;
+    scroll-behavior: smooth;
 }
 
 .navigation li{
@@ -14,14 +15,177 @@ html,body{
 }
 
 .carousel {
-    max-height: 650px;
-    overflow: hidden;}
+    max-height: 680px;
+    overflow: hidden;
+}
   
 .carousel-inner img {
-      width: 100%;
-      height: auto;
-    }
+    width: 100%;
+    height: auto;
+    filter:brightness(80%);
+}
 
 .carousel-caption{
-    margin-bottom:60px;
+    top:200px;
+    min-width:350px;
+    max-width: 350px;
+    margin-left:-100px;
+    animation: slide-up 1.2s;
+}
+
+.carousel-caption p{
+    text-transform: uppercase;
+}
+
+.carousel-caption h1{
+    margin-left:-3px;
+    font-weight:100;
+}
+
+.carousel-caption h5{
+    font-weight:100;
+}
+
+.carousel-caption *{
+    text-align:left;
+}
+
+.carousel-caption button{
+    margin-top:14px;
+    border-radius:0px;
+    opacity:0.7;
+    text-transform: uppercase;
+    font-size:.7rem;
+}
+
+.car-2{
+    margin-left:800px;
+}
+
+.car-2 *{
+    text-align:right;
+}
+
+.container-fluid *{
+    justify-content: center;
+    text-align:center;
+}
+
+.container-fluid span{
+    font-style: normal;
+    font-weight: 400;
+    font-size:2rem;
+    padding-bottom:10px;
+}
+
+.abt-hd{
+    margin-top:40px;
+    margin-bottom:-30px;
+}
+
+.abt-txt{
+    line-height:35px;
+    margin-top:100px;
+    margin-left:50px;
+    text-align:justify;
+}
+
+.about img{
+    width:80%;
+    margin-top:150px;
+    margin-bottom:150px;
+    border:10px solid rgb(233, 233, 233);
+}
+
+.lead{
+    margin-top:10px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+#fixed{
+    background-image: url("/images/img5.jpg");
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.create-hd h1{
+    padding:10px;
+}
+
+hr{
+    background-color:black;
+    height:1px;
+    width:40%;
+}
+
+.create{
+    margin-top:50px;
+    border:2px solid #fff;
+}
+
+.create p{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: justify;
+}
+
+.create img{
+    width:70%;
+    margin:20px ;
+    filter:brightness(80%);
+}
+
+.about h3{
+    margin-top:10px;
+}
+
+.item-hd{
+    margin-top:60px;
+}
+
+.jumb{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(171,171,171,0.5) 100%);
+    border:none;
+}
+
+.card{
+    width:400px;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:100px;
+}
+
+.card img{
+    width:220px;
+    height:250px;
+    margin-left:90px;
+}
+
+.card span{
+    font-size:1.2rem;
+}
+
+@keyframes slide-up {
+    from {
+        
+        opacity: .25;
+        line-height: 500px;
     }
+    to {
+        
+        opacity: 1;
+        line-height: 25px;
+    }
+}
+
+
+
+
+
