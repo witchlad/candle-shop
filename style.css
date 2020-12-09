@@ -172,6 +172,52 @@ hr{
     font-size:1.2rem;
 }
 
+.contact{
+    text-align:center;
+}
+
+.contact h1{
+    padding-top:80px;
+}
+
+.form{
+    margin-left:20px;
+}
+
+.form input{
+    margin:10px;
+    border:1px solid blue;
+}
+
+.form textarea{
+    margin:10px;
+}
+
+.from a{
+    margin:10px;
+}
+
+.footer{
+    border:1px solid red;
+    text-align:center;
+    margin-top:50px;
+    margin-bottom:-40px;
+    background-color:rgb(70, 69, 69);
+}
+
+.footer *{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.light{
+    background-color:white;
+}
+
+.info{
+    margin-top:50px;
+}
+
 @keyframes slide-up {
     from {
         
