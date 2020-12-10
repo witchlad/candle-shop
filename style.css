@@ -172,6 +172,10 @@ hr{
     font-size:1.2rem;
 }
 
+.contact {
+    margin-top:50px;
+}
+
 .contact input{
     margin-top:10px;
     margin-bottom:10px;
