@@ -173,7 +173,10 @@ hr{
 }
 
 .contact {
-    margin-top:50px;
+    margin-top:200px;
+    padding-bottom:50px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,0.5) 0%, rgba(171,171,171,0.5) 100%);
 }
 
 .contact input{
@@ -187,7 +190,7 @@ hr{
 }
 
 .footer{
-    margin-top:50px;
+    margin-top:10px;
     text-align:center;
     justify-content: center;
 }
@@ -200,6 +203,9 @@ hr{
     margin-top:20px;
 }
 
+footer .sub{
+    margin-top:50px;
+}
 @keyframes slide-up {
     from {
         
